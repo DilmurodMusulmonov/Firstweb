@@ -1,0 +1,137 @@
+div class="png">
+  <div class="header">
+   <div class="ok">
+    <div class="text">
+        <h1 class="haw1">
+            О нас
+        </h1>
+        <h2 class="haw3">
+            Финансовая инвестиционная инфраструктура, поддерживающая рост рынка капитала Республики Узбекистан.
+        </h2>
+    </div>
+   </div>
+   <div class="table">
+   </div>
+   <div class="aboutUs-part-1">
+            <div class="header-text"><span><div class="header-symbol">
+                <div class="silver"></div>
+                <div class="green"></div>
+                <div class="blue"></div>
+                </div><div class="profiltext">Профиль</div></span></div>
+        </div>
+        <div class="bigtxt">
+            <div class="txts">
+                <h3 class="centr">
+                    Государственное предприятие «Центральный депозитарий ценных бумаг»  - организация, обеспечивающая единую  систему хранения, учета прав и движения ценных бумаг в депозитарной системе Республики Узбекистан.
+                </h3>
+            </div>
+            <div class="tkst">
+                <h3 class="centre">
+        Центральный депозитарий осуществляет свою деятельность согласно Закону Республики Узбекистан “О рынке ценных бумаг” и других законодательных норм республики. Статья 39 и 40 вышеназванного Закона устанавливает перечень исключительных функций, и в том числе права и обязанности Центрального депозитария ценных бумаг.
+                </h3>
+            </div>
+        </div>
+        <div class="foter">
+            <div class="foot">
+                <h4 class="haw4">
+                    В соответствии с Законом Республики Узбекистан «О рынке ценных бумаг» Центральному депозитарию ценных бумаг возложены:
+
+                </h4>
+            </div>
+        </div>
+</div>
+</div>
+ *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .png{
+        width:1800px;
+        margin: 0 auto;
+    }
+   .header{
+    background-image: url("@/assets/img/house.png") ;
+    width: 1800px;
+    height: 400px;
+    background-repeat: no-repeat;
+   }
+   .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+}
+.haw1{
+    margin-top: 30px;
+    color: 
+#FFFFFF;
+font-size: 35px;
+font-weight: 500;
+}
+.haw3{
+    margin-top: 5px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 200;
+}
+.table{
+    width: 1000px;
+    height: 65px;
+    margin: 0 auto;
+    background-color: #003DA6;
+    margin-top: 120px;
+}
+.aboutUs-part-1{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .silver{
+        width: 20px;
+        height: 5px;
+        background: silver;
+    }
+    .green{
+        width: 20px;
+        height: 5px;
+        background: #49CB7D;
+    }
+    .blue{
+        width: 20px;
+        height: 5px;
+        background: #4488EF;
+    }
+    .header-symbol{
+        display: flex;
+        margin-left: 90px;
+        margin-top: 50px;
+    }
+    .profiltext{
+        font-size: 35px;
+        color: #404040;
+        font-weight: 500;
+    }
+    .bigtxt{
+        background-color: #003DA6;
+        color:#FFFFFF;
+        margin-top: 50px;
+    }
+   .txts{
+    width: 840px;
+    margin: 0 auto;
+   }
+   .centr{
+    font-size: 22px;
+    padding-top: 30px;
+   }
+   .tkst{
+    width: 840px;
+    margin: 0 auto;
+   }
+   .centre{
+    font-size: 22px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+   }
